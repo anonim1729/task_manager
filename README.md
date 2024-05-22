@@ -16,7 +16,7 @@ The React Task Manager is a simple, efficient application for managing tasks. It
 
 1. **Clone the repository**
     ```sh
-    git clone https://github.com/your-username/task-manager.git
+    git clone https://github.com/anonim1729/task_manager.git
     cd task-manager
     ```
 
