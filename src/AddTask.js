@@ -9,13 +9,15 @@ const AddTask = ({ newItem, setNewItem, handleSubmit }) => {
                 id='address'
                 placeholder="Add Task"
                 required
+                autoComplete='off'
                 value={newItem}
                 onChange={(e) => { setNewItem(e.target.value) }}
                 className='bg-gray-500 text-white border-b-2 border-white outline-none placeholder-white mx-2 p-1 w-full'
             />
             <button
                 type='submit'
-                aria-label='Add Item'
+                aria-label='Add Task'
+                name="add_task_btn"
                 className='bg-gray-500 text-white p-2 hover:text-rose-600'
             >
                 <FaPlus />

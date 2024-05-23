@@ -7,17 +7,12 @@ const Search = ({ search, setSearch }) => {
                 id='address'
                 placeholder="Search . . ."
                 required
+                autoComplete='off'
                 value={search}
                 onChange={(e) => { setSearch(e.target.value) }}
+                name="search"
                 className='bg-gray-500 text-white border-b-2 border-white outline-none placeholder-white mx-2 p-1 w-full'
             />
-            <button
-                type='submit'
-                aria-label='Add Item'
-                className='bg-gray-500 text-white p-2 hover:text-rose-600'
-            >
-
-            </button>
         </form>
     )
 }
